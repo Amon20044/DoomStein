@@ -24,10 +24,10 @@ class Player:
         if keys[pg.K_s]:
             dx += -Speed_cos
             dy += -Speed_sin
-        if keys[pg.K_a]:
+        if keys[pg.K_d]:
             dx += Speed_cos
             dy += -Speed_sin
-        if keys[pg.K_d]:
+        if keys[pg.K_a]:
             dx += -Speed_cos
             dy += Speed_sin
             
